@@ -30,3 +30,16 @@ gap: 20px;}
 
 .nav-link{text-decoration: none;
 margin-right: 2.125rem;}
+
+/* banner section */
+
+.banner{margin-top: 7.5rem ;
+justify-content: space-between;
+align-items: center;}
+
+.title{font-size: 4rem;
+font-weight: bold;}
+
+.sub-title{font-size: 1.5rem;
+font-weight: 25rem;
+color: rgba(0, 0, 0, 0.5);}
