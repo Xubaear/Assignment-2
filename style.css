@@ -1,3 +1,4 @@
+/* common use */
 .display-flex{display: flex;}
 
 .margine-top{margin-top: 2rem;}
@@ -37,9 +38,21 @@ margin-right: 2.125rem;}
 justify-content: space-between;
 align-items: center;}
 
-.title{font-size: 4rem;
+.banner-title{font-size: 4rem;
 font-weight: bold;}
 
-.sub-title{font-size: 1.5rem;
+.banner-sub-title{font-size: 1.5rem;
 font-weight: 25rem;
+color: rgba(0, 0, 0, 0.5);}
+
+/* main title and sub title section */
+.main-title{margin-top: 120px;
+font-size: 50px;
+font-weight: bold;
+text-align: center;}
+
+.main-sub-title{text-align: center;
+margin-top: -50px;
+font-size: 22px;
+font-weight: 400px;
 color: rgba(0, 0, 0, 0.5);}
