@@ -213,3 +213,12 @@ color: white;
 width: 100px;
 height: 33px;
 border: none;}
+
+/* footer section */
+
+.footer{justify-content: space-evenly;
+}
+.footer-links{list-style: none;}
+
+.footer-link{text-decoration: none;}
+
