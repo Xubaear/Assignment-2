@@ -123,3 +123,63 @@ margin-right: 15px;}
         font-size: 22px;
         margin-top: -20px;
     }
+
+    .first-pic img,
+.second-pic img,
+.third-pic img {
+  border-radius: 20px;
+}
+
+.first-pic{
+    position: relative;
+    grid-area: first-pic;
+}
+
+.second-pic{ position: relative;
+    margin-top: 20px;
+    grid-area: second-pic;
+}
+
+.third-pic{
+    position: relative;
+    border-radius: 20px;
+    margin-left: 20px;
+    grid-area: third-pic;
+    
+}
+
+.off-deals{
+    margin-top: 120px;
+   margin-left:50px;
+   margin-right: 50px;
+    display: grid;
+    grid-template-areas: 
+    "first-pic  third-pic   third-pic"
+    "second-pic third-pic   third-pic"
+    ;
+}
+
+.first-pic-offer{position: absolute;
+bottom: 90px;
+left: 90px;
+text-align: center;
+font-size: 20px;
+color:  white;}
+
+.second-pic-offer{
+    position: absolute;
+    text-align: center;
+    color: white;
+    bottom: 80px;
+    left: 110px;
+    font-size: 20px;
+}
+
+.third-pic-offer{
+position: absolute;
+text-align: center;
+color: white;
+bottom: 150px;
+left: 200px;
+font-size: 40px;
+}
