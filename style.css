@@ -193,6 +193,12 @@ font-size: 40px;
    
 }
 
+.contact-img img {
+  width: 100%;
+  height: auto;
+  max-width: 1245px;
+}
+
 .log-in{position: relative;
     text-align: center;
 bottom: 330px;
@@ -393,10 +399,26 @@ border: none;}
 
   /* join section */
 
-.contact img{
-    
-    width: 10px;
+.contact-header{
+    font-size: 20px;
+    width:300px;
+    margin-left: 120px;
+    margin-top: 175px;
 }
+
+.mail{width: 200px;
+height: 40px;
+
+}
+
+.btn{width: 80px;
+height: 42px;
+}
+
+ .contact-img img {
+    max-width: 100%;
+  }
+
 
 /* footer section */
 
@@ -405,6 +427,7 @@ border: none;}
     flex-direction: column;
     align-items: flex-start;
     padding-left: 10px;
+    margin-top: -150px;
   }
 
   .footer > div,
